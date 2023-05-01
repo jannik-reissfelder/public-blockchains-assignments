@@ -11,8 +11,8 @@ const GOERLI_RPC_URL = `${INFURA_URL}${INFURA_KEY}`;
 // console.log('------------------------')
 
 // Beware: NEVER put real Ether into testing accounts.
-const HH_PRIVATE_KEY_1 = process.env.METAMASK_2_PRIVATE_KEY;
-const HH_PRIVATE_KEY_2 = process.env.METAMASK_3_PRIVATE_KEY;
+const HH_PRIVATE_KEY_1 = process.env.METAMASK_PRIVATE_KEY;
+const HH_PRIVATE_KEY_2 = process.env.METAMASK_2_PRIVATE_KEY;
 
 /** @type import('hardhat/config').HardhatUserConfig */
 module.exports = {

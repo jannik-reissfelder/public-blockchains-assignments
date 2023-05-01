@@ -24,9 +24,10 @@ async function main() {
     console.log('Local Validator address: ' + val.address);
 
     // Now we can deploy the assignment.
-    const Ass = await hre.ethers.getContractFactory("Assignment2", {
+    const Ass = await hre.ethers.getContractFactory("RPS", {
         signer: signer,
     });
+    console.log('int ' + val.address);
 
     // We pass the validator address to the constructor (make sure to pass
     // the parameter to the constructor of BaseAssignment).
